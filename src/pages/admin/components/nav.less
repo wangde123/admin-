@@ -1,0 +1,31 @@
+.nav{
+  height: 42px;
+  padding: 0 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  line-height: 42px;
+ 
+}
+
+.left{
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+
+}
+.left::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-color: #fff transparent transparent;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top:100%;
+  // transform: translateY(-50%);
+
+
+}
